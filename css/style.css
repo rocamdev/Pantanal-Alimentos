@@ -125,12 +125,14 @@ p {
   padding: 5px;
 }
 
-.produtos div p {
-  color: #122910;
+.call {
+  text-transform: uppercase;
   padding-bottom: 20px;
-}
-.produtos div {
   text-align: center;
+}
+.call p {
+  color: #081307;
+  padding-bottom: 20px;
 }
 .produtos_lista li {
   background-color: #122910;
