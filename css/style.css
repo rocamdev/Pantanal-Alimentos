@@ -128,9 +128,12 @@ p {
 .call {
   text-transform: uppercase;
   padding-bottom: 20px;
+  padding-top: 20px;
   text-align: center;
 }
 .call p {
+  font-family: Arial, Helvetica, sans-serif;
+
   color: #081307;
   padding-bottom: 20px;
 }
@@ -145,4 +148,8 @@ p {
   height: 2px;
   background: #a28028;
   margin: 5px auto 5px auto;
+}
+/* parceiros */
+.parceiros li {
+  padding-bottom: 10px;
 }
