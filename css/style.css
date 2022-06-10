@@ -156,6 +156,7 @@ img {
   border-style: inset;
   padding-bottom: 40px;
 }
+
 .parceiros_lista li {
   padding-bottom: 20px;
 }
@@ -184,9 +185,22 @@ img {
   background: #a28028;
   margin: 5px auto 5px auto;
 }
-.sobre p {
-  text-align: center;
+.sobre:after {
+  content: "";
+  width: 623px;
+  height: 81.5px;
+  display: block;
+  background: url("../img/especiais/linhas.svg") no-repeat center;
+  position: absolute;
+  top: 172px;
+  right: 168px;
+  z-index: -1;
 }
 .sobre_lista li {
-  padding-bottom: 20px;
+  padding: 50px 35px 20px 35px;
+  text-align: center;
+}
+.sobre img {
+  border: 3px #122910 inset;
+  margin: 0 auto;
 }
