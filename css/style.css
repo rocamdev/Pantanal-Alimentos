@@ -3,9 +3,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 p {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   line-height: 20px;
+}
+img {
+  display: block;
 }
 .btn {
   border: #a28028;
@@ -105,8 +108,8 @@ p {
 }
 /* produtos */
 .produtos {
-  border-bottom: #a28028;
-  border-style: groove;
+  border-bottom: 2px #a28028;
+  border-style: inset;
   padding-bottom: 40px;
 }
 .produtos h3 {
@@ -118,8 +121,15 @@ p {
   padding-top: 10px;
   color: #fff;
 }
+.produtos h3::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: #a28028;
+  margin: 5px auto 5px auto;
+}
 .produtos p {
-  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   color: #fff;
   padding: 5px;
@@ -132,8 +142,6 @@ p {
   text-align: center;
 }
 .call p {
-  font-family: Arial, Helvetica, sans-serif;
-
   color: #081307;
   padding-bottom: 20px;
 }
@@ -141,7 +149,30 @@ p {
   background-color: #122910;
   margin-bottom: 30px;
 }
-.produtos h3::after {
+/* parceiros */
+.parceiros {
+  border-bottom: 2px #a28028;
+  border-style: inset;
+  padding-bottom: 40px;
+}
+.parceiros li {
+  padding-bottom: 10px;
+}
+/* qualidade */
+.sobre {
+  border-bottom: 2px #a28028;
+  border-style: inset;
+  padding-bottom: 40px;
+}
+.sobre h3 {
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding-top: 10px;
+  color: #081307;
+}
+.sobre h3::after {
   content: "";
   display: block;
   width: 60px;
@@ -149,7 +180,9 @@ p {
   background: #a28028;
   margin: 5px auto 5px auto;
 }
-/* parceiros */
-.parceiros li {
-  padding-bottom: 10px;
+.sobre p {
+  text-align: center;
+}
+.sobre li {
+  padding-bottom: 20px;
 }
