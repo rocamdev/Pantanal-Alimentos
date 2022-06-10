@@ -10,6 +10,7 @@ p {
 img {
   display: block;
 }
+
 .btn {
   border: #a28028;
   font-size: 12;
@@ -155,8 +156,11 @@ img {
   border-style: inset;
   padding-bottom: 40px;
 }
-.parceiros li {
-  padding-bottom: 10px;
+.parceiros_lista li {
+  padding-bottom: 20px;
+}
+.parceiros img {
+  margin: 0 auto;
 }
 /* qualidade */
 .sobre {
@@ -183,6 +187,6 @@ img {
 .sobre p {
   text-align: center;
 }
-.sobre li {
+.sobre_lista li {
   padding-bottom: 20px;
 }
