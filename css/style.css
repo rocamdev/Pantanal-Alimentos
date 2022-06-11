@@ -43,6 +43,24 @@ img {
   background: #a28028;
   margin: 5px auto 5px auto;
 }
+.h3-tipo1 {
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding-top: 10px;
+  color: #fff;
+}
+.produto .h3-tipo1::after,
+.sobre .h3-tipo1::after,
+.footer .h3-tipo1::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: #a28028;
+  margin: 5px auto 5px auto;
+}
 /* Header */
 .header {
   position: fixed;
@@ -81,7 +99,7 @@ img {
   background-size: cover;
   margin-top: 80px;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 30px;
 }
 .introducao h1 {
   font-size: 48px;
@@ -113,23 +131,7 @@ img {
   border-style: inset;
   padding-bottom: 40px;
 }
-.produtos h3 {
-  text-align: center;
-  font-weight: bold;
-  font-size: 18px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  padding-top: 10px;
-  color: #fff;
-}
-.produtos h3::after {
-  content: "";
-  display: block;
-  width: 60px;
-  height: 2px;
-  background: #a28028;
-  margin: 5px auto 5px auto;
-}
+
 .produtos p {
   text-align: center;
   color: #fff;
@@ -169,21 +171,8 @@ img {
   border-style: inset;
   padding-bottom: 40px;
 }
-.sobre h3 {
-  text-align: center;
-  font-size: 18px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  padding-top: 10px;
+.sobre .h3-tipo1 {
   color: #081307;
-}
-.sobre h3::after {
-  content: "";
-  display: block;
-  width: 60px;
-  height: 2px;
-  background: #a28028;
-  margin: 5px auto 5px auto;
 }
 .sobre:after {
   content: "";
@@ -203,4 +192,36 @@ img {
 .sobre img {
   border: 3px #122910 inset;
   margin: 0 auto;
+}
+/* quebra */
+.quebra {
+  padding-top: 100px;
+  text-align: center;
+  width: 100%;
+  height: 259px;
+  background: url(../img/bg-coach.jpg) no-repeat center;
+  background-size: cover;
+}
+.quebra .quote-interno {
+  max-width: 430px;
+}
+/* footer */
+.footer {
+  color: #fff;
+  background-color: #081307;
+  padding: 20px 0;
+}
+.footer h3 {
+  text-align: left;
+}
+.footer p {
+  font-size: 14px;
+  font-weight: 20px;
+  padding: 0 100px 10px 0px;
+}
+.footer .h3-tipo1::after {
+  margin: 5px 0 10px 0;
+}
+.redes-sociais li:hover {
+  padding: 2px;
 }
