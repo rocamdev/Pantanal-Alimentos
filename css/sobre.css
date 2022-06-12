@@ -1,3 +1,35 @@
 .interna_sobre {
   background: url("../img/sobre-capa.jpg") no-repeat center;
 }
+.missao-sobre h3{
+  text- align: center;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding-top: 10px;
+  color: #081307;
+}
+.missao-sobre h3::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: #a28028;
+  margin: 5px 0 10px 0;
+
+}
+.missao-sobre {
+  color: #081307;
+  padding-top: 76px;
+}
+.missao-sobre p {
+  font-size: 14px;
+  font-weight: 20px;
+  padding: 0 100px 10px 0px;
+}
+.missao-sobre ul {
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 20px;
+  padding-top: 50px;
+}
