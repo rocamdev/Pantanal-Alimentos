@@ -125,6 +125,32 @@ img {
 .quote-interno p {
   font-style: italic;
 }
+/* introducao interna */
+.introducao-interna {
+  width: 100%;
+  height: 160px;
+  color: #fff;
+  background-size: cover;
+  margin-top: 80px;
+  text-align: center;
+  padding-top: 30px;
+}
+.introducao-interna h1:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: #a28028;
+  margin: 5px auto 5px auto;
+}
+.introducao-interna h1 {
+  font-size: 36px;
+  text-transform: uppercase;
+}
+.introducao-interna p {
+  text-transform: uppercase;
+}
+
 /* produtos */
 .produtos {
   border-bottom: 2px #a28028;
