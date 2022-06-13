@@ -1,5 +1,6 @@
 .interna_sobre {
   background: url("../img/sobre-capa.jpg") no-repeat center;
+  background-size: cover;
 }
 .missao-sobre h3 {
   font-size: 18px;
@@ -18,15 +19,20 @@
 }
 .missao-sobre {
   color: #081307;
-  padding-top: 76px;
+  padding-top: 60px;
 }
 .missao-sobre p {
   font-size: 18px;
   line-height: 25px;
-  padding: 0 20px 10px 0px;
+  padding: 0 20px 60px 0px;
 }
 .missao-sobre ul {
   line-height: 25px;
   font-size: 18px;
-  padding-top: 50px;
+}
+.sobre_interno {
+  border-style: none;
+}
+.quebra-sobre {
+  margin-top: 180px;
 }
