@@ -43,7 +43,7 @@ text-transform: uppercase;
 letter-spacing: 0.1em;
 position: relative;
 top: -250px;
-left: 60px;
+text-align: center;
 margin-bottom: -45px;
 }
 .produto_item h2::after, .produto_item h2::before{
@@ -54,5 +54,5 @@ margin-bottom: -45px;
   background: #a28028;
   margin: 5px auto 5px auto;
   position: relative;
-  left: -240px;
+  text-align: center;
 }
