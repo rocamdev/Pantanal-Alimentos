@@ -52,7 +52,7 @@ img {
   color: #fff;
 }
 .produto .h3-tipo1::after,
-.sobre .h3-tipo1::after,
+.sobre .h3-tipo1::after, .orcamento .h3-tipo1::after,
 .footer .h3-tipo1::after {
   content: "";
   display: block;

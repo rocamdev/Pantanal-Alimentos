@@ -24,7 +24,7 @@
 }
 .produto_info ul li{
   background-color: #E8EFEC;
-  color: #0A1C10;
+  color: #081307;
   text-transform: uppercase;
   font-size: 18px;
   line-height: 25px;
@@ -55,4 +55,56 @@ margin-bottom: -45px;
   margin: 5px auto 5px auto;
   position: relative;
   text-align: center;
+}
+/* orçamento */
+
+.orcamento {
+  background-color: #081307;
+  width: 100%;
+  color: #fff;
+  padding: 40px 0;
+}
+.orcamento h3{
+  padding-bottom: 30px;
+}
+.form {
+  padding-right: 60px;
+  
+}
+.form label{
+ display: block;
+ line-height: 25px;
+}
+.form input:hover, .form textarea:hover{
+  border: 2px solid #a28028;
+}
+.form input{
+  display: block;
+  font-size: 14px;
+  width: 100%;
+  padding: 5px 10px;
+  outline: none;
+  margin-bottom: 10px;
+}
+.form textarea{
+  display: block;
+  font-size: 14px;
+  width: 100%;
+  height: 100px;
+  padding: 5px 10px;
+  outline: none;
+}
+.form .btn{
+margin-top: 15px;
+border: 3px inset #a28028;
+}
+.dados h3{
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height: 25px;
+}
+.dados p{
+  font-size: 18px;
+  line-height: 25px;
+
 }
