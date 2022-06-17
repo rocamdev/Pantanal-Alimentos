@@ -19,7 +19,6 @@
 }
 .missao-sobre {
   color: #081307;
-  padding-top: 60px;
 }
 .missao-sobre p {
   font-size: 18px;
@@ -36,7 +35,4 @@
 .quebra-sobre {
   margin-top: 180px;
 }
-.header_menu ul li a.menu_ativo{
-  color: #a28028;
-  border-bottom: 2px #a28028 inset;
-}
+
