@@ -1,224 +1,223 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8" />
-    <title>Pantanal Alimentos - Produtos</title>
-  </head>
-  <link rel="stylesheet" href="css/normalize.css" />
-  <link rel="stylesheet" href="css/reset.css" />
-  <link rel="stylesheet" href="css/grid.css" />
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/produtos.css" />
 
-  <body>
-    <header class="header">
+<head>
+  <meta charset="utf-8" />
+  <title>Pantanal Alimentos - Produtos</title>
+</head>
+<link rel="stylesheet" href="css/normalize.css" />
+<link rel="stylesheet" href="css/reset.css" />
+<link rel="stylesheet" href="css/grid.css" />
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/produtos.css" />
+
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="grid-4">
+        <img src="img/especiais/logo-branco.svg" alt="logo pantanal distribuidora de alimentos" />
+      </a>
+      <nav class="grid-12 header_menu">
+        <ul>
+          <li><a href="sobre.html">sobre</a></li>
+          <li><a href="produtos.html" class="menu_ativo">produtos</a></li>
+          <li><a href="parceiros.html">parceiros</a></li>
+          <li><a href="contato.html">contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="introducao-interna interna_produtos">
+    <div class="container">
+      <h1>produtos</h1>
+      <p>conheça os nosso produtos</p>
+    </div>
+  </section>
+
+  <section class="container produto_item">
+    <div class="grid-11">
+      <img src="img/produtos/vinho-1.jpg" alt="vinhos pantanal" />
+      <h2>vinhos</h2>
+    </div>
+    <div class="grid-5">
+      <img src="img/produtos/vinho-2.jpg" alt="vinhos tintos pantanal" />
+    </div>
+    <div class="grid-8">
+      <img src="img/produtos/vinho-3.jpg" alt="vinhos branco pantanal" />
+    </div>
+    <div class="grid-8 produto_info">
+      <p>
+        As melhores marcas de vinhos como Sinuello, Isabel e os famosos
+        Romanée Conti.
+      </p>
+      <ul>
+        <li>tinto de mesa</li>
+        <li>bordô de mesa</li>
+        <li>branco de mesa</li>
+        <li>romanee conti</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="container produto_item">
+    <div class="grid-11">
+      <img src="img/produtos/conserva-1.jpg" alt="conservas pantanal" />
+      <h2>conservas</h2>
+    </div>
+    <div class="grid-5">
+      <img src="img/produtos/conserva-2.jpg" alt="palmitos  pantanal" />
+    </div>
+    <div class="grid-8">
+      <img src="img/produtos/conserva-3.jpg" alt="azeitonas pantanal" />
+    </div>
+    <div class="grid-8 produto_info">
+      <p>
+        As mais diversas conservas das melhores marcas, além de uma ampla
+        variedade de palmitos especiais.
+      </p>
+      <ul>
+        <li>palmitos</li>
+        <li>azeitonas</li>
+        <li>picles</li>
+        <li>outros</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="container produto_item">
+    <div class="grid-11">
+      <img src="img/produtos/grao-1.jpg" alt="graos pantanal" />
+      <h2>graos</h2>
+    </div>
+    <div class="grid-5">
+      <img src="img/produtos/grao-2.jpg" alt="grao-de-bico pantanal" />
+    </div>
+    <div class="grid-8">
+      <img src="img/produtos/grao-3.jpg" alt="feijao pantanal" />
+    </div>
+    <div class="grid-8 produto_info">
+      <p>
+        Os melhores grãos para sua mesa, uma alimentação saudável passa pelo
+        nosso controle de qualidade aguçado para sempre entregar sabor e
+        qualidade.
+      </p>
+      <ul>
+        <li>grão-de-bico</li>
+        <li>lentilha</li>
+        <li>soja</li>
+        <li>outros</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="container produto_item">
+    <div class="grid-11">
+      <img src="img/produtos/polpa-1.jpg" alt="polpas pantanal" />
+      <h2>polpas</h2>
+    </div>
+    <div class="grid-5">
+      <img src="img/produtos/polpa-2.jpg" alt="polpas manga pantanal" />
+    </div>
+    <div class="grid-8">
+      <img src="img/produtos/polpa-3.jpg" alt="polpas  tamarindo pantanal" />
+    </div>
+    <div class="grid-8 produto_info">
+      <p>
+        Polpas integrais das mais variadas frutas com as melhores marcas que
+        garantem a consistência e todas as vitaminas de um suco natural.
+      </p>
+      <ul>
+        <li>manga</li>
+        <li>tamarindo</li>
+        <li>acerola</li>
+        <li>outros</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="orcamento">
+    <div class="container">
+      <h3 class="h3-tipo1">orçamento</h3>
+      <form id="form_orcamento" class="form grid-8">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" />
+        <label for="e-mail">E-mail</label>
+        <input type="text" id="e-mail" />
+        <label for="telefone">Telefone</label>
+        <input type="text" id="telefone" />
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem"></textarea>
+        <button class="btn" type="submit">enviar</button>
+      </form>
+      <div class="dados grid-8">
+        <h3>dados</h3>
+        <p>+55 (65) 9.9999-9999</p>
+        <p>orçamento@pantanaldistribuidora.com</p>
+      </div>
+      <div class="grid-4 redes-sociais">
+        <h3 class="h3-tipo1">redes sociais</h3>
+        <ul>
+          <li class="grid-1">
+            <a href="https://www.instagram.com/rodolfocampos.dev/" target="_blank"><img src="img/redes-sociais/instagram-ico.svg" alt="ícone instagram" /></a>
+          </li>
+          <li class="grid-1">
+            <a href="https://wa.me/" target="_blank"><img src="img/redes-sociais/whatsapp-ico.svg" alt="ícone whatsapp" /></a>
+          </li>
+          <li class="grid-1">
+            <a href="https://www.facebook.com/" target="_blank"><img src="img/redes-sociais/facebook-ico.svg" alt="ícone facebook" /></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="quebra quebra-produtos">
+    <blockquote class="quote-interno container">
+      <p>
+        "Trate os alimentos como trata as pessoas. Valorize o que eles têm de
+        melhor e evite os que não te fazem bem!"
+      </p>
+    </blockquote>
+  </section>
+  <footer>
+    <div class="footer">
       <div class="container">
-        <a href="index.html" class="grid-4">
-          <img
-            src="img/especiais/logo-branco.svg"
-            alt="logo pantanal distribuidora de alimentos"
-          />
-        </a>
-        <nav class="grid-12 header_menu">
+        <div class="grid-8">
+          <h3 class="h3-tipo1">Nossa história</h3>
+          <p>
+            A mais de 10 anos fundada para atender a pequena região cuiabana
+            com vinhos chilenos e conservas especiais, hoje somos o maior do
+            Centro-Oeste.
+          </p>
+        </div>
+
+        <div class="grid-4">
+          <h3 class="h3-tipo1">contato</h3>
           <ul>
-            <li><a href="sobre.html">sobre</a></li>
-            <li><a href="produtos.html" class="menu_ativo">produtos</a></li>
-            <li><a href="parceiros.html">parceiros</a></li>
-            <li><a href="contato.html">contato</a></li>
+            <li>- (65) 9.9999-9999</li>
+            <li>- contato@dapantanal.com</li>
+            <li>- Cuiabá - MT</li>
           </ul>
-        </nav>
-      </div>
-    </header>
+        </div>
 
-    <section class="introducao-interna interna_produtos">
-      <div class="container">
-        <h1>produtos</h1>
-        <p>conheça os nosso produtos</p>
-      </div>
-    </section>
-
-    <section class="container produto_item">
-      <div class="grid-11">
-        <img src="img/produtos/vinho-1.jpg" alt="vinhos pantanal" />
-        <h2>vinhos</h2>
-      </div>
-      <div class="grid-5">
-        <img src="img/produtos/vinho-2.jpg" alt="vinhos tintos pantanal" />
-      </div>
-      <div class="grid-8">
-        <img src="img/produtos/vinho-3.jpg" alt="vinhos branco pantanal" />
-      </div>
-      <div class="grid-8 produto_info">
-        <p>
-          As melhores marcas de vinhos como Sinuello, Isabel e os famosos
-          Romanée Conti.
-        </p>
-        <ul>
-          <li>tinto de mesa</li>
-          <li>bordô de mesa</li>
-          <li>branco de mesa</li>
-          <li>romanee conti</li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="container produto_item">
-      <div class="grid-11">
-        <img src="img/produtos/conserva-1.jpg" alt="conservas pantanal" />
-        <h2>conservas</h2>
-      </div>
-      <div class="grid-5">
-        <img src="img/produtos/conserva-2.jpg" alt="palmitos  pantanal" />
-      </div>
-      <div class="grid-8">
-        <img src="img/produtos/conserva-3.jpg" alt="azeitonas pantanal" />
-      </div>
-      <div class="grid-8 produto_info">
-        <p>
-          As mais diversas conservas das melhores marcas, além de uma ampla
-          variedade de palmitos especiais.
-        </p>
-        <ul>
-          <li>palmitos</li>
-          <li>azeitonas</li>
-          <li>picles</li>
-          <li>outros</li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="container produto_item">
-      <div class="grid-11">
-        <img src="img/produtos/grao-1.jpg" alt="graos pantanal" />
-        <h2>graos</h2>
-      </div>
-      <div class="grid-5">
-        <img src="img/produtos/grao-2.jpg" alt="grao-de-bico pantanal" />
-      </div>
-      <div class="grid-8">
-        <img src="img/produtos/grao-3.jpg" alt="feijao pantanal" />
-      </div>
-      <div class="grid-8 produto_info">
-        <p>
-          Os melhores grãos para sua mesa, uma alimentação saudável passa pelo
-          nosso controle de qualidade aguçado para sempre entregar sabor e
-          qualidade.
-        </p>
-        <ul>
-          <li>grão-de-bico</li>
-          <li>lentilha</li>
-          <li>soja</li>
-          <li>outros</li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="container produto_item">
-      <div class="grid-11">
-        <img src="img/produtos/polpa-1.jpg" alt="polpas pantanal" />
-        <h2>polpas</h2>
-      </div>
-      <div class="grid-5">
-        <img src="img/produtos/polpa-2.jpg" alt="polpas manga pantanal" />
-      </div>
-      <div class="grid-8">
-        <img src="img/produtos/polpa-3.jpg" alt="polpas  tamarindo pantanal" />
-      </div>
-      <div class="grid-8 produto_info">
-        <p>
-          Polpas integrais das mais variadas frutas com as melhores marcas que
-          garantem a consistência e todas as vitaminas de um suco natural.
-        </p>
-        <ul>
-          <li>manga</li>
-          <li>tamarindo</li>
-          <li>acerola</li>
-          <li>outros</li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="orcamento">
-      <div class="container">
-        <h3 class="h3-tipo1">orçamento</h3>
-        <form id="form_orcamento" class="form grid-8">
-          <label for="nome">Nome</label>
-          <input type="text" id="nome" />
-          <label for="e-mail">E-mail</label>
-          <input type="text" id="e-mail" />
-          <label for="telefone">Telefone</label>
-          <input type="text" id="telefone" />
-          <label for="mensagem">Mensagem</label>
-          <textarea id="mensagem"></textarea>
-          <button class="btn" type="submit">enviar</button>
-        </form>
-        <div class="dados grid-8">
-          <h3>dados</h3>
-          <p>+55 (65) 9.9999-9999</p>
-          <p>orçamento@pantanaldistribuidora.com</p>
+        <div class="grid-4 redes-sociais">
+          <h3 class="h3-tipo1">redes sociais</h3>
+          <ul>
+            <li class="grid-1">
+              <a href="https://www.instagram.com/rodolfocampos.dev/" target="_blank"><img src="img/redes-sociais/instagram-ico.svg" alt="icone instagram" /></a>
+            </li>
+            <li class="grid-1">
+              <a href="https://wa.me/" target="_blank"><img src="img/redes-sociais/whatsapp-ico.svg" alt="icone whatsapp" /></a>
+            </li>
+            <li class="grid-1">
+              <a href="https://www.facebook.com/" target="_blank"><img src="img/redes-sociais/facebook-ico.svg" alt="icone facebook" /></a>
+            </li>
+          </ul>
         </div>
       </div>
-    </section>
+    </div>
+  </footer>
+</body>
 
-    <section class="quebra quebra-produtos">
-      <blockquote class="quote-interno container">
-        <p>
-          "Trate os alimentos como trata as pessoas. Valorize o que eles têm de
-          melhor e evite os que não te fazem bem!"
-        </p>
-      </blockquote>
-    </section>
-    <footer>
-      <div class="footer">
-        <div class="container">
-          <div class="grid-8">
-            <h3 class="h3-tipo1">Nossa história</h3>
-            <p>
-              A mais de 10 anos fundada para atender a pequena região cuiabana
-              com vinhos chilenos e conservas especiais, hoje somos o maior do
-              Centro-Oeste.
-            </p>
-          </div>
-
-          <div class="grid-4">
-            <h3 class="h3-tipo1">contato</h3>
-            <ul>
-              <li>- (65) 9.9999-9999</li>
-              <li>- contato@dapantanal.com</li>
-              <li>- Cuiabá - MT</li>
-            </ul>
-          </div>
-
-          <div class="grid-4 redes-sociais">
-            <h3 class="h3-tipo1">redes sociais</h3>
-            <ul>
-              <li class="grid-1">
-                <a
-                  href="https://www.instagram.com/rodolfocampos.dev/"
-                  target="_blank"
-                  ><img
-                    src="img/redes-sociais/instagram-ico.svg"
-                    alt="icone instagram"
-                /></a>
-              </li>
-              <li class="grid-1">
-                <a href="https://wa.me/" target="_blank"
-                  ><img
-                    src="img/redes-sociais/whatsapp-ico.svg"
-                    alt="icone whatsapp"
-                /></a>
-              </li>
-              <li class="grid-1">
-                <a href="https://www.facebook.com/" target="_blank"
-                  ><img
-                    src="img/redes-sociais/facebook-ico.svg"
-                    alt="icone facebook"
-                /></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </body>
 </html>

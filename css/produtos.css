@@ -102,9 +102,18 @@ border: 3px inset #a28028;
   font-size: 18px;
   text-transform: uppercase;
   line-height: 25px;
+  padding-bottom: 10px;
 }
 .dados p{
   font-size: 18px;
   line-height: 25px;
+
+}
+.orcamento .redes-sociais h3{
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+.orcamento .redes-sociais ul{
+  margin-left: 20px;
 
 }
