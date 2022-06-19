@@ -40,6 +40,7 @@
 .contato_form .btn{
 margin-top: 15px;
 border: 3px inset #a28028;
+margin-bottom: 40px;
 }
 .dados h3{
   font-size: 18px;
@@ -70,11 +71,10 @@ border: 3px inset #a28028;
   padding-top: 20px;
   margin-left: 20px;
 
+
 }
 .dados .redes-sociais li:hover {
   padding: 2px;
 }
-
-
 
 
