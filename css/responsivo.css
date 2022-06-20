@@ -18,12 +18,12 @@
 	text-align: center;
 }
 .header_menu ul li {
-	margin: 0;
+	margin: 5px;
 	padding: 0;
 }
 .header_menu ul li a {
 	border: 4px solid #a28028;
-	width: 140px;
+	width: 136px;
 	display: block;
 	float: left;
   padding: 10px 0;
@@ -36,6 +36,8 @@
 .introducao {
 	margin-top: 0;
 	padding-top: 10px;
+	background: url("../img/home-capa-mobile.jpg") no-repeat center;
+  background-size: cover;
 }
 .introducao h1{
 	font-size: 36px;
