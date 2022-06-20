@@ -179,6 +179,8 @@ img {
 .call p {
   color: #081307;
   padding-bottom: 20px;
+  text-align: center;
+  clear: both;
 }
 .produtos_lista li {
   background-color: #122910;
