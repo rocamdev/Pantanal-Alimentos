@@ -65,4 +65,47 @@
 .quote-interno {
 	margin-bottom: 190px;
 }
+/* call */
+.call {
+  text-transform: uppercase;
+  padding-bottom: 0;
+  padding-top: 0;
+  text-align: center;
+}
+/* produtos */
+.produtos_lista li {
+  background-color: #122910;
+  margin-bottom: 10px;
+}
+/* parceiros */
+.parceiros_lista li {
+	margin:0 ;
+	padding: 0;
+	margin-bottom: 10px;
+}
+.parceiros .call {
+	margin-top: 20px;
+}
+
+/* sobre */
+.sobre:after {
+	display: none;
+}
+
+.sobre_lista li {
+  padding: 0 10px 0 10px;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 14px;
+  font-weight: 20px;
+  padding: 0 10px 10px 0px;
+}
+.grid-1 {
+	width: 70px;
+	float: left;
+
+}
+
 }
