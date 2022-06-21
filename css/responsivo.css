@@ -21,6 +21,10 @@
 		padding: 50px 0px 20px 0;
 		text-align: center;
 	}
+	/* sobre */
+.introducao-interna{
+	margin-top: 60px;
+}
 
 }
 /* estilos para smartphone */
@@ -107,5 +111,8 @@
 	float: left;
 
 }
+/* sobre */
+
+
 
 }
