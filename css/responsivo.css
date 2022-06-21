@@ -1,6 +1,26 @@
 /* estilo para tablets */
 @media only screen and (min-width: 788px) and (max-width: 979px){
+	/* home */
+	.introducao {
+		margin-top: 60px;
+	}
+	.sobre:after {
+		content: "";
+		width: 100%;
+		height: 81.5px;
+		display: block;
+		background: url("../img/especiais/linhas.svg") no-repeat center;
+		background-size: 525px;
+			position: absolute;
+		top: 172px;
+		z-index: -1;
+		
+	}
 
+	.sobre_lista li {
+		padding: 50px 0px 20px 0;
+		text-align: center;
+	}
 
 }
 /* estilos para smartphone */
@@ -32,7 +52,7 @@
 	border-color: rgb(202, 199, 199);
 } 
 
-/* introdução */
+/* home */
 .introducao {
 	margin-top: 0;
 	padding-top: 10px;

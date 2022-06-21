@@ -199,7 +199,7 @@ img {
 .parceiros img {
   margin: 0 auto;
 }
-/* qualidade */
+/* sobre */
 .sobre {
   padding-bottom: 40px;
 }
@@ -208,13 +208,12 @@ img {
 }
 .sobre:after {
   content: "";
-  width: 623px;
+  width: 100%;
   height: 81.5px;
   display: block;
   background: url("../img/especiais/linhas.svg") no-repeat center;
-  position: absolute;
+    position: absolute;
   top: 172px;
-  right: 168px;
   z-index: -1;
 }
 .sobre_lista li {
