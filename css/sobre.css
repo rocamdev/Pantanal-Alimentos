@@ -13,7 +13,7 @@
   content: "";
   display: block;
   width: 60px;
-  height: 2px;
+  height: 1px;
   background: #a28028;
   margin: 5px 0 10px 0;
 }
@@ -29,10 +29,10 @@
   line-height: 25px;
   font-size: 18px;
 }
-.sobre_interno {
+.interna_sobre {
   border-style: none;
 }
-.quebra-sobre {
+ .quebra-sobre { 
   margin-top: 180px;
 }
 
