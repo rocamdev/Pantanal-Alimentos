@@ -25,8 +25,24 @@
 .introducao-interna{
 	margin-top: 60px;
 }
+/* produtos */
+.produto_item h2{
 
-}
+	top: -200px;
+
+	}
+	.produto_info ul li{
+		font-size: 18px;
+		width: 175px; 
+		height: 40px;
+		padding-top: 10px;
+		}
+	
+	.produto_info ul {
+		padding-top: 28px; 
+ }
+
+} /* Final do estilos para tablet*/
 /* estilos para smartphone */
 @media only screen and (max-width: 787px){
 /* header */
@@ -132,5 +148,8 @@
 	.quebra-sobre { 
 		margin-top: 0;
 	}
+
+	/* produtos */
+	
 	
 }

@@ -7,8 +7,6 @@
   margin-bottom: 20px;
   font-size: 18px;
   background-color: #0A1C10;
-  width: 460px;
-  height: 280px;
   
 }
 .produto_item{
@@ -18,9 +16,11 @@
 
 .produto_info p{
   font-size: 18px;
-  padding: 30px 20px;
+  padding: 30px 20px 0 20px;
   line-height: 25px;
-  height: 170px;
+}
+.produto_info ul {
+   padding-top: 90px; 
 }
 .produto_info ul li{
   background-color: #E8EFEC;
