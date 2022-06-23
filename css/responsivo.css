@@ -26,6 +26,10 @@
 	margin-top: 60px;
 }
 /* produtos */
+.produto_item{
+  color: #fff;
+  margin-bottom: 40px;
+}
 .produto_item h2{
 
 	top: -200px;
@@ -41,6 +45,12 @@
 	.produto_info ul {
 		padding-top: 28px; 
  }
+ .produto_info p{
+	font-size: 16px;
+  padding: 15px 15px 0 15px;
+  line-height: 25px;
+	height: 105px;
+}
 
 } /* Final do estilos para tablet*/
 /* estilos para smartphone */

@@ -18,9 +18,10 @@
   font-size: 18px;
   padding: 30px 20px 0 20px;
   line-height: 25px;
+  height: 150px;
 }
 .produto_info ul {
-   padding-top: 90px; 
+   padding-top: 20px; 
 }
 .produto_info ul li{
   background-color: #E8EFEC;
