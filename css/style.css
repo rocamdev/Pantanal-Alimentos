@@ -257,15 +257,15 @@ img {
   padding: 2px;
 }
 /* JAVASCRIPT */
-[data-slide] {
+.js [data-slide] {
   position: relative;
 }
-[data-slide] > * {
+.js [data-slide] > * {
   position: absolute;
   top: 0px;
   opacity: 0;
 }
-[data-slide] > .active {
+.js [data-slide] > .active {
   position: relative;
   opacity: 1;
   transition: opacity 1000ms;
