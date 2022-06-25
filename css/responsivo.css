@@ -1,5 +1,5 @@
 /* estilo para tablets */
-@media only screen and (min-width: 788px) and (max-width: 979px){
+@media only screen and (min-width: 768px) and (max-width: 959px){
 	/* home */
 	.introducao {
 		margin-top: 60px;
@@ -50,7 +50,7 @@
 
 } /* Final do estilos para tablet*/
 /* estilos para smartphone */
-@media only screen and (max-width: 787px){
+@media only screen and (max-width: 767px){
 /* header */
 	.header {
 		position: relative;
