@@ -192,6 +192,12 @@
 .form {
   padding-right: 0px;
   }
+	/* parcerias */
+	.quote_parceiros {
+			height: 130px;
+  		margin-top: 20px; 
+
+	}
 	/* contato */
 	.contato_form {
 		padding-right: 0;

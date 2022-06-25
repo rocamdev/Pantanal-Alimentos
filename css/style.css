@@ -256,3 +256,18 @@ img {
 .redes-sociais li:hover {
   padding: 2px;
 }
+/* JAVASCRIPT */
+[data-slide] {
+  position: relative;
+}
+[data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+[data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 1000ms;
+  z-index: 1;
+}
