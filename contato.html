@@ -39,15 +39,15 @@
 
   <section data-anime="1200" class="fadeInDown contato container">
 
-    <form id="form_orcamento" class="contato_form grid-8">
+    <form id="form_orcamento" method="post" action="./enviar.php" class="contato_form grid-8 formphp">
       <label for="nome">Nome</label>
-      <input type="text" id="nome" />
-      <label for="e-mail">E-mail</label>
+      <input type="text" id="nome" name="nome" required />
+      <label for="e-mail" name="email" required>E-mail</label>
       <input type="text" id="e-mail" />
       <label for="telefone">Telefone</label>
-      <input type="text" id="telefone" />
+      <input type="text" id="telefone" name="telefone" required />
       <label for="mensagem">Mensagem</label>
-      <textarea id="mensagem"></textarea>
+      <textarea id="mensagem" name="mensagem" required></textarea>
       <button class="btn" type="submit">enviar</button>
     </form>
     <div class="dados grid-8">
