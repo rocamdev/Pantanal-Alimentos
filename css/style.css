@@ -96,7 +96,12 @@ img {
   color: #a28028;
   border-bottom: 2px #a28028 inset;
 }
-/* Introdução */
+
+
+/* home */
+
+
+/* home - Introdução */
 .introducao {
   width: 100%;
   height: 380px;
@@ -130,7 +135,7 @@ img {
 .quote-interno p {
   font-style: italic;
 }
-/* introducao interna */
+/* home - introducao interna */
 .introducao-interna {
   width: 100%;
   height: 160px;
@@ -157,7 +162,7 @@ img {
   text-transform: uppercase;
 }
 
-/* produtos */
+/* home - produtos */
 .produtos {
   border-bottom: 2px #a28028;
   border-style: inset;
@@ -186,7 +191,7 @@ img {
   background-color: #122910;
   margin-bottom: 30px;
 }
-/* parceiros */
+/* home - parceiros */
 .parceiros {
   border-bottom: 2px #a28028;
   border-style: inset;
@@ -199,7 +204,7 @@ img {
 .parceiros img {
   margin: 0 auto;
 }
-/* sobre */
+/* home - sobre */
 .sobre {
   padding-bottom: 40px;
 }
@@ -224,7 +229,7 @@ img {
   border: 3px #122910 inset;
   margin: 0 auto;
 }
-/* quebra */
+/* home - quebra */
 .quebra {
   padding-top: 100px;
   text-align: center;
@@ -236,7 +241,7 @@ img {
 .quebra .quote-interno {
   max-width: 430px;
 }
-/* footer */
+/* home - footer */
 .footer {
   color: #fff;
   background-color: #081307;
@@ -255,7 +260,50 @@ img {
 }
 .redes-sociais li:hover {
   padding: 2px;
+} /*Home - fim*/
+
+/* page - sobre */
+
+.interna_sobre {
+  background: url("../img/sobre-capa.jpg") no-repeat center;
+  background-size: cover;
 }
+.missao-sobre h3 {
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding-top: 10px;
+  color: #081307;
+}
+.missao-sobre h3::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 1px;
+  background: #a28028;
+  margin: 5px 0 10px 0;
+}
+.missao-sobre {
+  color: #081307;
+}
+.missao-sobre p {
+  font-size: 18px;
+  line-height: 25px;
+  padding: 0 20px 60px 0px;
+}
+.missao-sobre ul {
+  line-height: 25px;
+  font-size: 18px;
+}
+.interna_sobre {
+  border-style: none;
+}
+ .quebra-sobre { 
+  margin-top: 180px;
+}
+
+/* page - sobre -fim */
+
 /* JAVASCRIPT */
 .js [data-slide] {
   position: relative;
@@ -298,3 +346,4 @@ img {
   position: absolute;
   height: 0;
 }
+
