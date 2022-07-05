@@ -429,6 +429,34 @@ border: 3px inset #a28028;
 
 /* page-produtos - fim */
 
+
+/* page-parceiros - inicio */
+
+.interna_parceiros {
+  background: url("../img/parceiros-capa.jpg") no-repeat center;
+  background-size: cover;
+}
+.quote_parceiros {
+  padding-bottom: 60px;
+  text-align: center;
+  height: 100px;
+}
+.quote_parceiros p{
+  font-size: 18px;
+  padding-bottom: 10px;
+  font-style: italic;
+}
+.quote_parceiros cite{
+  font-weight: bold;
+ }
+ .parceiros_interno {
+  border-style: none;
+ }
+
+/* page-produtos - fim */
+
+
+
 /* JAVASCRIPT */
 .js [data-slide] {
   position: relative;
