@@ -107,6 +107,8 @@ img {
   height: 380px;
   background: url("../img/home-capa.jpg") no-repeat center;
   background-size: cover;
+  min-height: 380px;
+  object-fit: cotain;
   margin-top: 70px;
   text-align: center;
   padding-top: 30px;
